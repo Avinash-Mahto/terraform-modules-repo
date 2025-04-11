@@ -5,7 +5,7 @@ module "common" {
 }
 
 module "ec2_instance" {
-  source         = "./ec2"
+  source         = "./ec2_instance"
   ami_id         = var.ami_id
   instance_type  = var.instance_type
   name           = var.name
